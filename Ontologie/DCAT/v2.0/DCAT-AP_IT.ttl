@@ -31,7 +31,8 @@
                                                     "Gruppo di lavoro su Profilo Nazionale Metadati - Regione Piemonte, Provincia autonoma di Trento, CISIS, Protezione Civile e Istat"@it ;
                                     dct:rights "Attribution - http://creativecommons.org/licenses/by/3.0/it/legalcode"@en ;
                                     dct:rightsHolder <http://dati.gov.it/resource/Amministrazione/agid> ;
-                                    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>.
+                                    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+                                    dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/QUARTERLY> .
 
 #################################################################
 #    Annotation properties
