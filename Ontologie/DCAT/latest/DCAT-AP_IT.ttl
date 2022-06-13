@@ -29,7 +29,8 @@
                                     dct:description "Versione 2.0 del 18-03-2016 dell'ontologia del Profilo italiano dei metadati che descrivono dati, e cataloghi di dati, delle pubbliche amministrazioni (DCAT-AP_IT)."@it ;
                                     dct:contributor "Working Group on National metadata profile DCAT-AP IT - Regione Piemonte, Provincia Autonoma di Trento, CISIS, Protezione Civile and ISTAT"@en ,
                                                     "Gruppo di lavoro su Profilo Nazionale Metadati - Regione Piemonte, Provincia autonoma di Trento, CISIS, Protezione Civile e Istat"@it ;
-                                    dct:rights "Attribution - http://creativecommons.org/licenses/by/3.0/it/legalcode"@en .
+                                    dct:rights "Attribution - http://creativecommons.org/licenses/by/3.0/it/legalcode"@en ;
+                                    dct:rightsHolder <http://dati.gov.it/resource/Amministrazione/agid> .
 
 #################################################################
 #    Annotation properties
