@@ -11,6 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
 @base <http://dati.gov.it/onto/dcatapit> .
 
 <http://dati.gov.it/onto/dcatapit> rdf:type owl:Ontology ;
@@ -32,7 +33,10 @@
                                     dct:rights "Attribution - http://creativecommons.org/licenses/by/3.0/it/legalcode"@en ;
                                     dct:rightsHolder <http://dati.gov.it/resource/Amministrazione/agid> ;
                                     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
-                                    dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/QUARTERLY> .
+                                    dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/QUARTERLY> ;
+                                    admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/IOT-JSON-LD> ,
+                                                                          <https://w3id.org/italia/data/distribution/IOT-RDF-TURTLE> ,
+                                                                          <https://w3id.org/italia/data/distribution/IOT-RDF-XML> .
 
 #################################################################
 #    Annotation properties
